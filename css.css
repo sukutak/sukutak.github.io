@@ -1,0 +1,19 @@
+
+			body {
+				color: #666666;
+				background-color: #DBFFDB;
+                background-position: center;
+				font-family: Georgia, Times, serif;
+				line-height: 1.4em;
+				margin: 0px;}
+
+			.header {
+				display: block;
+                height: 70px;
+				background-color: #A4FF9F;
+                text-align: center;}
+            
+            h1 {
+                
+                color: #0700C4
+             }
