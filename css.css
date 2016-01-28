@@ -5,15 +5,43 @@
                 background-position: center;
 				font-family: Georgia, Times, serif;
 				line-height: 1.4em;
-				margin: 0px;}
+				margin: 5px 15px;}
 
 			.header {
 				display: block;
-                height: 70px;
+                height: 80px;
 				background-color: #A4FF9F;
                 text-align: center;}
             
-            h1 {
-                
+            h1 {  
+                margin-top: 5px;
                 color: #0700C4
              }
+            a:link, a:visited, a:active, .current {
+            color: #0700C4;
+            text-decoration:none; 
+            padding: 7px 7px;
+            background-color: #FFFF80;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #000000; }
+            
+            a:active {
+            color: #178D0E }
+            
+            .column1 {
+            float: left;
+            width: 250px;
+            top: 0px;
+            left: 0px; }
+             
+            .column2 {
+            float: none;
+            margin: 0px 250px;
+            top: 0px;}
+            
+            .column3 {
+            float: right;
+            width: 250px;
+            top: 0px;
+            left: 500px; }
