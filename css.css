@@ -28,20 +28,25 @@
             
             a:active {
             color: #178D0E }
-            
+
+            p {
+            margin: 0px 15px; }
+                        
             .column1 {
-            float: left;
             width: 250px;
             top: 0px;
-            left: 0px; }
+            left: 0px; 
+            text-align: center;
+            display: inline-block;}
              
             .column2 {
-            float: none;
-            margin: 0px 250px;
-            top: 0px;}
-            
-            .column3 {
-            float: right;
             width: 250px;
             top: 0px;
-            left: 500px; }
+            text-align: center;
+            display: inline-block;}
+            
+            .column3 {
+            display: inline-block;
+            width: 250px;
+            text-align: center;
+            top: 0px;}
