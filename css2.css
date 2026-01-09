@@ -8,15 +8,16 @@
 				background-position: center;
 				font-family: Georgia, Times, serif;
 				line-height: 1.4em;
-				border: 25px solid navy;
+			/*	border: 25px solid navy;   */
 				margin: 0px; }
 
 			#xmen {
 				text-align: center;
 				display: block;
 				height: 200px;
-				color: #ABABAB;
-				background-color: #385927;
+				width: 600px;
+				color: #1d2158;
+				background-color: #ffb400;
 			    font-size: x-large;}
 
 			.header {
