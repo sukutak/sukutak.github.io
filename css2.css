@@ -3,7 +3,9 @@
 			body {
 				color: #666666;
 				background-image: url('https://lumiere-a.akamaihd.net/v1/images/logan_584x800_9a5af33a.jpeg');
-                background-position: center;
+                background-repeat: no-repeat:
+				background-size: cover;				
+				background-position: center;
 				font-family: Georgia, Times, serif;
 				line-height: 1.4em;
 				border: 25px solid navy;
@@ -13,7 +15,9 @@
 				text-align: center;
 				display: block;
 				height: 200px;
-				background-color: #385927; }
+				color: #ABABAB;
+				background-color: #385927;
+			    font-size: x-large;}
 
 			.header {
 				display: block;
@@ -44,8 +48,8 @@
 			h2 {
 			text-align: center;
 			}
-            
-            .column1 {
+            /*
+            .column1 { 
             width: 33%;
             top: 0px;
             left: 0px; 
@@ -59,4 +63,4 @@
             .column3 {
             float: right;
             width: 33%;
-            top: 0px;}
+            top: 0px;} */
