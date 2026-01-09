@@ -1,8 +1,16 @@
-<html><body>
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Countdown</title>
+<link rel="stylesheet" href="css2.css">
+
+</head><body>
 
 <!-- Display the countdown timer in an element -->
-<p id="demo"></p>
-
+<p id="xmen"></p>
+New Wolverine movie arrives in: 
 <script>
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 27, 2026 12:00:00").getTime();
@@ -23,13 +31,13 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  document.getElementById("xmen").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "WOLVERINE HAS ARRIVED ...we may never find paths again";
+    document.getElementById("xmen").innerHTML = "WOLVERINE HAS ARRIVED ...we may never find paths again";
   }
 }, 1000);
 </script>
