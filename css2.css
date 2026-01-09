@@ -1,0 +1,56 @@
+
+
+			body {
+				color: #666666;
+				background-image: url('https://lumiere-a.akamaihd.net/v1/images/logan_584x800_9a5af33a.jpeg');
+                background-position: center;
+				font-family: Georgia, Times, serif;
+				line-height: 1.4em;
+				border: 25px solid navy;
+				margin: 0px; }
+				
+			.header {
+				display: block;
+                height: 90px;
+				background-color: #A4FF9F;
+                text-align: center;
+				padding: 10px;}
+            
+            h1 {  
+                color: #0700C4;
+             }
+			 
+            a:link, a:visited, a:active, .current {
+            color: #0700C4;
+            text-decoration:none; 
+            padding: 7px 7px;
+            background-color: #FFFF80;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #000000; }
+            
+            a:active {
+            color: #178D0E }
+
+            p {
+            margin: 0px 15px; }
+            
+			h2 {
+			text-align: center;
+			}
+            
+            .column1 {
+            width: 33%;
+            top: 0px;
+            left: 0px; 
+            float: left;}
+             
+            .column2 {
+            width: 33%;
+            top: 0px;
+            display: inline-block;}
+            
+            .column3 {
+            float: right;
+            width: 33%;
+            top: 0px;}
